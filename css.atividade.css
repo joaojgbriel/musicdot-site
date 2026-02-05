@@ -4,27 +4,23 @@ body {
     padding: 0;
 }
 
-/* container central */
 main {
     width: 940px;
     margin: 0 auto;
 }
 
-/* título azul (Sobre a empresa e Contato) */
 .titulo-principal {
     background-color: #e3eef3;
     padding: 10px;
     margin-top: 20px;
 }
 
-/* subtítulos */
 h2:not(.titulo-principal) {
     margin-top: 40px;
     border-bottom: 1px solid #000;
     padding-bottom: 5px;
 }
 
-/* figuras */
 figure {
     background-color: whitesmoke;
     padding: 15px;
@@ -42,13 +38,11 @@ figcaption {
     color: #777;
 }
 
-/* matriz centralizada */
 figure.matriz {
     width: 550px;
     margin: 30px auto;
 }
 
-/* família flutuando à direita */
 figure.familia {
     width: 275px;
     float: right;
