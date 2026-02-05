@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* container central */
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* título azul (Sobre a empresa e Contato) */
+.titulo-principal {
+    background-color: #e3eef3;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* subtítulos */
+h2:not(.titulo-principal) {
+    margin-top: 40px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+/* figuras */
+figure {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 30px 0;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+/* matriz centralizada */
+figure.matriz {
+    width: 550px;
+    margin: 30px auto;
+}
+
+/* família flutuando à direita */
+figure.familia {
+    width: 275px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+/* links */
+a {
+    color: blue;
+    text-decoration: underline;
+}
